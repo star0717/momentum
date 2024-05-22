@@ -14,7 +14,7 @@ function onLoginSubmit(event) {
 
 function painGreetings() {
   const username = localStorage.getItem(USERNAME_KEY);
-  greeting.innerText = `Hello ${username}!`;
+  greeting.innerText = `환영해요 ${username}님!`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
